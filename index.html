@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="NaBFID Offense Processor — a browser-based workspace for preparing daily offense reports.">
+  <title>NaBFID Offense Processor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="NaBFID Offense Processor home">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span class="brand-name">Offense<span>Processor</span></span>
+      </a>
+      <span class="environment"><span class="status-dot"></span> BUILD IN PROGRESS</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> NaBFID · REPORTING WORKSPACE</div>
+          <h1 id="hero-title">Offense reporting,<br><span>made simpler.</span></h1>
+          <p class="hero-description">A focused workspace for turning offense exports into clear, consistent daily reports. We’re building it from the ground up—with a modular structure and browser-based processing.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#roadmap">Explore the build <span aria-hidden="true">↘</span></a>
+            <span class="local-note"><span class="shield-icon" aria-hidden="true">✓</span> Designed for local file processing</span>
+          </div>
+        </div>
+
+        <div class="preview-card" aria-label="Illustrative report preview">
+          <div class="preview-top">
+            <div>
+              <span class="preview-kicker">WORKSPACE PREVIEW</span>
+              <h2>Daily offense report</h2>
+            </div>
+            <span class="preview-badge"><span class="status-dot"></span> Coming soon</span>
+          </div>
+          <div class="preview-metrics">
+            <div class="metric">
+              <span class="metric-label">Created offenses</span>
+              <strong>—</strong>
+              <span class="metric-foot">Awaiting input</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">Closed offenses</span>
+              <strong>—</strong>
+              <span class="metric-foot">Awaiting input</span>
+            </div>
+          </div>
+          <div class="preview-table">
+            <div class="table-heading"><span>REPORT PIPELINE</span><span>STATUS</span></div>
+            <div class="pipeline-row"><span class="pipeline-icon">01</span><span class="pipeline-name">Upload Excel files</span><span class="pipeline-status pending">Planned</span></div>
+            <div class="pipeline-row"><span class="pipeline-icon">02</span><span class="pipeline-name">Validate and reconcile</span><span class="pipeline-status pending">Planned</span></div>
+            <div class="pipeline-row"><span class="pipeline-icon">03</span><span class="pipeline-name">Generate report</span><span class="pipeline-status pending">Planned</span></div>
+          </div>
+          <div class="preview-footer"><span class="footer-pulse"></span> Processing engine is not connected yet</div>
+        </div>
+      </section>
+
+      <section class="technology" aria-label="Technology stack">
+        <span class="technology-label">BUILT WITH</span>
+        <div class="tech-item"><span class="tech-symbol js-symbol">JS</span><span><strong>JavaScript</strong><small>Processing logic</small></span></div>
+        <div class="tech-item"><span class="tech-symbol xlsx-symbol">X</span><span><strong>SheetJS</strong><small>Excel import & export</small></span></div>
+        <div class="tech-item"><span class="tech-symbol browser-symbol">◎</span><span><strong>Browser-based</strong><small>No user installation</small></span></div>
+      </section>
+
+      <section class="roadmap" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="section-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> DEVELOPMENT PLAN</div><h2 id="roadmap-title">Built in clear steps.</h2></div>
+          <p>Each part will have its own module—so the application stays easy to maintain and test.</p>
+        </div>
+        <div class="roadmap-grid">
+          <article class="roadmap-card active-card">
+            <span class="step-number">01</span><span class="card-state"><span class="status-dot"></span> CURRENT</span>
+            <h3>Foundation</h3><p>Set up the project structure, interface and reusable modules.</p>
+          </article>
+          <article class="roadmap-card">
+            <span class="step-number">02</span><span class="card-state">UP NEXT</span>
+            <h3>Excel handling</h3><p>Read input workbooks and validate required columns and dates.</p>
+          </article>
+          <article class="roadmap-card">
+            <span class="step-number">03</span><span class="card-state">PLANNED</span>
+            <h3>Processing & export</h3><p>Implement agreed rules, review results and export the report.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>NaBFID Offense Processor</span><span>Temporary project landing page <span class="footer-separator">·</span> Processing features are not available yet</span></footer>
+  </div>
+</body>
+</html>
